@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murali Subramaniam</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+     <!-- navigator bar - regular -->
+     <nav>
+        <div class="nav-wrapper red accent-3">
+            <a href="index.html"  class="brand-logo">
+                <i class="material-icons">home</i>murali</a>
+            <a href="index.html" data-target="mobile-demo" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="https://www.linkedin.com/in/murali-subramaniam-8084904/" id="linkedin">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/murali-sa" id="github">Github</a>
+                </li>
+                <li>
+                    <a href="portfolio.html" id="portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="contact.html" id="contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navigator bar - mobile -->    
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <a href="index.html" id="contact">Home</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/murali-subramaniam-8084904/" id="linkedin">LinkedIn</a>
+        </li>
+        <li>
+            <a href="https://github.com/murali-sa" id="github">Github</a>
+        </li>
+        <li>
+            <a href="portfolio.html" id="portfolio">Portfolio</a>
+        </li>
+        <li>
+            <a href="contact.html" id="contact">Contact</a>
+        </li>
+    </ul>
+    <!-- -->
+    <div class="container" id="content-body">
+        <div class="row heading red-text text-accent-3">
+            <div class="col-md">
+                <h4>portfolio</h4>
+                <hr class="col-md">
+            </div>
+        </div>
+        <div class="row">
+            <div class="carousel">
+                <a class="carousel-item modal-trigger" href="#modal2">
+                    <p class="project-title">password generator</p>
+                    <img src="assets/images/password.jpg">
+                </a>
+                <a class="carousel-item modal-trigger" href="#modal1">
+                    <p class="project-title">grocerPE</p>
+                    <img src="assets/images/recipe.jpg">
+                </a>
+                <a class="carousel-item modal-trigger" href="#modal3">
+                    <p class="project-title">weather dashboard</p>
+                    <img src="assets/images/texas.jpg">
+                </a>
+                <a class="carousel-item modal-trigger" href="#modal4">
+                    <p class="project-title">eat-da-burger</p>
+                    <img src="assets/images/burger.jpg">
+                </a>
+            </div>
+            <div class="row">
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <h4>ingredient list</h4>
+                        <p>First bootcamp project-grocerPE. Used a recipe API.  Built a query to select a recipe and extract the ingredient list. Utilizes HTML, CSS, Javascript, AJAX, API, JQuery, Javascript libraries.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://murali-sa.github.io/grocerpe/" class="modal-close waves-effect waves-green btn-flat">Github</a>
+                    </div>
+                </div>
+                
+                <div id="modal2" class="modal">
+                    <div class="modal-content">
+                        <h4>password generator</h4>
+                        <p>Generates a password, 8 to 16 character-long, with alphabets, numbers, and special characters. Utilizes HTML, CSS, and Javascript.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://murali-sa.github.io/Password-Generator/" class="modal-close waves-effect waves-green btn-flat">Github</a>
+                    </div>
+                </div>
+
+                <div id="modal3" class="modal">
+                    <div class="modal-content">
+                        <h4>Weather Dashboard</h4>
+                        <p>A simple weather dashboard. 5-day forecast for select cities in Texas.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://murali-sa.github.io/Weather-Dashboard/" class="modal-close waves-effect waves-green btn-flat">Github</a>
+                    </div>
+                </div>
+               
+                <div id="modal4" class="modal">
+                    <div class="modal-content">
+                        <h4>Eat-Da-Burger</h4>
+                        <p>Eat a burger.  Deployed in Heroku.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://shrouded-scrubland-92662.herokuapp.com/" class="modal-close waves-effect waves-green btn-flat">Website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer red white-text">
+        <div>
+            <span class="white-text">2020 murali subramaniam</span>
+        </div>
+    </footer>
+
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/js/materialize.min.js"></script>
+    <script language="javascript" type="text/javascript" src="assets/javascript/logic.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+</body>
+
+</html>
